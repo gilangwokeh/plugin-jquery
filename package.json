@@ -3,5 +3,23 @@
     "bootstrap": "^5.2.0-beta1",
     "jquery": "^3.6.0",
     "link": "^1.5.0"
-  }
+  },
+  "name": "jquery_plugin2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gilangwokeh/plugin-jquery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gilangwokeh/plugin-jquery/issues"
+  },
+  "homepage": "https://github.com/gilangwokeh/plugin-jquery#readme",
+  "description": ""
 }
