@@ -1,12 +1,13 @@
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   overflow-x: hidden;
   font-family: sans-serif;
   line-height:1.6em;
   header {
     background-color: rgba(17, 14, 14, 0.829);
-    padding: 5px;
+    padding-top: 12px;
+    padding-bottom: 1px;
     nav {
       ul {
         display: flex;
@@ -33,12 +34,27 @@ body {
   }
   .error {
     color: red;
+    margin-left: 50px;
   }
   h1{
     text-align:center;
     margin-bottom:20px;
   }
-  
+  h4{
+    text-align: justify;
+  }
+  .paragraph-carousel{
+    width: 1000px;
+    height: 100px;
+    text-align: justify;
+    position: relative;
+    left: 140px;
+    font-family: sans-serif;
+  }
+  h4{
+    text-align: center;
+    font-family: sans-serif;
+  }
   #container{
     width:980px;
     margin:40px auto;
@@ -100,26 +116,69 @@ body {
     }
   }
   form{
-    text-align: center;
+    border: 2px solid black;
+    position: relative;
+    left: 450px;
+    width: 500px;
+    height: auto;
+    #name {
+      width: 400px;
+      margin-left: 50px;
+    }
+    #date {
+      width: 400px;
+      margin-left: 50px;
+    }
+    #email {
+      width: 400px;
+      margin-left: 50px;
+    }
+    #telp {
+      width: 400px;
+      margin-left: 50px;
+    }
+    .gender {
+      margin-top: 10px;
+      margin-left: 50px;
+    }
+    .life {
+      margin-left: 50px;
+    }
     .input-length{
+      margin-top: 10px;
+      margin-left: 50px;
+    }
+    #submit {
       position: relative;
-      left: -63px;
+      left: 200px;
+      margin-top: 20px;
+      margin-bottom: 20px;
     }
     .input-email {
-      position: relative;
-      left: -69px;
+      margin-left: 50px;
+      margin-top: 10px;
     }
     .input-name{
-      position: relative;
-      left: -40px;
+        margin-left: 50px;
     }
     .input-lahir{
-      position: relative;
-      left: -50px;
+      margin-left: 50px;
+    }
+    #photo {
+      margin-left: 100px;
+    }
+    #show {
+      margin-left: 100px;
+      margin-top: 20px;
+      margin-bottom: 20px;
     }
     .paragraph-priview{
       text-align: center;
       margin-top: 40px;
+    }
+    #address {
+      margin-left: 50px;
+
     }
   }
 }

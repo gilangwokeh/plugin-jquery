@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   overflow-x: hidden;
   font-family: sans-serif;
@@ -7,7 +7,8 @@ body {
 }
 body header {
   background-color: rgba(17, 14, 14, 0.829);
-  padding: 5px;
+  padding-top: 12px;
+  padding-bottom: 1px;
 }
 body header nav ul {
   display: flex;
@@ -32,10 +33,26 @@ body a {
 }
 body .error {
   color: red;
+  margin-left: 50px;
 }
 body h1 {
   text-align: center;
   margin-bottom: 20px;
+}
+body h4 {
+  text-align: justify;
+}
+body .paragraph-carousel {
+  width: 1000px;
+  height: 100px;
+  text-align: justify;
+  position: relative;
+  left: 140px;
+  font-family: sans-serif;
+}
+body h4 {
+  text-align: center;
+  font-family: sans-serif;
 }
 body #container {
   width: 980px;
@@ -97,27 +114,69 @@ body .next-span #next {
   padding-left: 10px;
 }
 body form {
-  text-align: center;
+  border: 2px solid black;
+  position: relative;
+  left: 450px;
+  width: 500px;
+  height: auto;
+}
+body form #name {
+  width: 400px;
+  margin-left: 50px;
+}
+body form #date {
+  width: 400px;
+  margin-left: 50px;
+}
+body form #email {
+  width: 400px;
+  margin-left: 50px;
+}
+body form #telp {
+  width: 400px;
+  margin-left: 50px;
+}
+body form .gender {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+body form .life {
+  margin-left: 50px;
 }
 body form .input-length {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+body form #submit {
   position: relative;
-  left: -63px;
+  left: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 body form .input-email {
-  position: relative;
-  left: -69px;
+  margin-left: 50px;
+  margin-top: 10px;
 }
 body form .input-name {
-  position: relative;
-  left: -40px;
+  margin-left: 50px;
 }
 body form .input-lahir {
-  position: relative;
-  left: -50px;
+  margin-left: 50px;
+}
+body form #photo {
+  margin-left: 100px;
+}
+body form #show {
+  margin-left: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 body form .paragraph-priview {
   text-align: center;
   margin-top: 40px;
+}
+body form #address {
+  margin-left: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */

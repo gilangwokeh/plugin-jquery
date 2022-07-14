@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8"name="viewport" content="width=device-width, initial-scale=1.0" meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>PLUGIN</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css  ">
   <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
@@ -51,6 +52,7 @@
           <img src="image/forward.svg" alt="Next" id="next">
         </span>
       </div>
+        <h4 class="paragraph-carousel">1.Cara pakai fitur Carousel adalah klik tombol panah ke kanan (->) untuk melakukan melihat gambar lain arah ke kanan,untuk klik tombol panah ke kiri (<-) untuk melakukan melihat gambar lain arah ke kiri.</h4>
       <form id="basic-form" method="post">
         <h1>Form Validasi</h1>
         <p class="input-name">Nama Lengkap</p>
@@ -74,16 +76,18 @@
         <p class="input-length">No.Telp</p>
         <input id="telp" name="telp" type="number" placeholder="no.telp" required minlength="5" maxlength="13">
         <p class="input-length">Alamat</p>
-        <textarea name="address" id="address" cols="20" rows="10" placeholder="alamat" required></textarea>
+        <textarea name="address" id="address" cols="40" rows="5" placeholder="alamat" required></textarea>
         <br>
-        <button type="submit">submit</button>
-    </form>
+        <input id="submit" class="btn btn-primary" type="submit" value="Submit">
+      </form>
+    <h4>2.Form validasi fitur adalah fitur untuk melakukan pengisian data dengan benar</h4>
     <form action="">
       <h1 class="paragraph-priview">Image preview</h1>
       <input id="photo" image="" type="file" required="true">
       <br>
       <img id="show" src="./image/contoh.jpg" alt="">
     </form>
+    <h4>3.Cara pakai fitur image preview kegunaan untuk melakukan upload image atau upload gambar ke dalam website .</h4>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
   <script src="./jquery/index.js"></script>
