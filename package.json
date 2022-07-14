@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "bootstrap": "^5.2.0-beta1",
     "jquery": "^3.6.0",
     "link": "^1.5.0"
   },
