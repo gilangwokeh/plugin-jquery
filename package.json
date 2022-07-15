@@ -5,7 +5,7 @@
     "np": "^7.6.2"
   },
   "name": "jquery_plugin2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "test": "echo \"no test specified\""
