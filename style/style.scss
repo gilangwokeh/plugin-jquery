@@ -71,6 +71,9 @@ body {
   .prev-span:hover , .next-span:hover {
     cursor: pointer;
     background-color: rgb(161, 153, 153);
+    transition: all 0.45s;
+    width: 50px;
+    border-radius: 50px;
   }
   .next-span {
     background-color: #666;
