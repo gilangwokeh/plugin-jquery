@@ -43,7 +43,8 @@ body h1 {
   margin-bottom: 20px;
 }
 body h4 {
-  text-align: justify;
+  text-align: center;
+  margin: 40px;
 }
 body .paragraph-carousel {
   width: 1000px;
