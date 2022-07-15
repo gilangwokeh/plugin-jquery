@@ -63,14 +63,10 @@ body .prev-span {
   height: 40px;
   position: absolute;
   float: right;
-  left: 170px;
+  left: 175px;
   margin-top: 160px;
   border-radius: 40px;
   z-index: 100;
-}
-body .prev-span #prev {
-  padding-top: 12px;
-  padding-left: 10px;
 }
 body .prev-span:hover, body .next-span:hover {
   cursor: pointer;
@@ -82,94 +78,10 @@ body .next-span {
   height: 40px;
   position: absolute;
   float: left;
-  right: 210px;
+  right: 220px;
   margin-top: 160px;
   border-radius: 40px;
   z-index: 100;
-}
-body .next-span #next {
-  padding-top: 12px;
-  padding-left: 10px;
-}
-body form {
-  border: 2px solid black;
-  position: relative;
-  left: 450px;
-  width: 500px;
-  height: auto;
-}
-body form .paragraph-validasi {
-  margin-top: 20px;
-}
-body form #name {
-  width: 400px;
-  margin-left: 50px;
-  border-radius: 5px;
-  background-color: rgb(211, 203, 203);
-}
-body form #date {
-  width: 400px;
-  margin-left: 50px;
-  border-radius: 5px;
-  background-color: rgb(211, 203, 203);
-}
-body form #email {
-  width: 400px;
-  margin-left: 50px;
-  border-radius: 5px;
-  background-color: rgb(211, 203, 203);
-}
-body form #telp {
-  width: 400px;
-  margin-left: 50px;
-  border-radius: 5px;
-  background-color: rgb(211, 203, 203);
-}
-body form .gender {
-  margin-left: 50px;
-}
-body form .life {
-  margin-left: 50px;
-}
-body form .input-length {
-  margin-top: 10px;
-  margin-left: 50px;
-  border-radius: 5px;
-}
-body form #submit {
-  position: relative;
-  left: 200px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-body form .input-email {
-  margin-left: 50px;
-  margin-top: 10px;
-  border-radius: 5px;
-}
-body form .input-name {
-  margin-left: 50px;
-}
-body form .input-lahir {
-  margin-left: 50px;
-}
-body form #photo {
-  margin-left: 100px;
-  background-color: rgb(211, 203, 203);
-}
-body form #show {
-  margin-left: 100px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-body form .paragraph-priview {
-  text-align: center;
-  margin-top: 20px;
-}
-body form #address {
-  margin-left: 50px;
-  background-color: rgb(211, 203, 203);
-  border-radius: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
