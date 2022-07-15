@@ -4,30 +4,6 @@ body {
   overflow-x: hidden;
   font-family: sans-serif;
   line-height:1.6em;
-  header {
-    background-color: rgba(17, 14, 14, 0.829);
-    padding-top: 12px;
-    padding-bottom: 1px;
-    nav {
-      ul {
-        display: flex;
-        justify-content: space-around;
-        li {
-          list-style: none;
-          a {
-            text-decoration: none;
-            color: #ffff;
-            font-weight: bold;
-            font-family: sans-serif;
-          }
-          a:hover {
-            color: red;
-            cursor: pointer;
-          }
-        }
-      }
-    }
-  }
   .slide-h1{
     margin-top: 20px;
   }
@@ -150,7 +126,6 @@ body {
 
     }
     .gender {
-      margin-top: 10px;
       margin-left: 50px;
       
     }

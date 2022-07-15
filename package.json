@@ -2,7 +2,8 @@
   "dependencies": {
     "jquery": "^3.6.0",
     "link": "^1.5.0",
-    "np": "^7.6.2"
+    "mysql": "^2.18.1",
+    "np": "^3.0.4"
   },
   "name": "jquery_plugin2",
   "version": "1.0.1",
@@ -20,6 +21,5 @@
     "url": "https://github.com/gilangwokeh/plugin-jquery/issues"
   },
   "homepage": "https://github.com/gilangwokeh/plugin-jquery#readme",
-  "description": "1.cara pakai carousel klik panah kanan (->) untuk melihat gambar lain ke kanan,klik panah kiri (<-) untuk melihat gambar lain ke kiri. 2.cara pengguna form validasi harus di isi kolom semua . 3.cara pakai image review di upload gambar untuk tampilkan di website.",
-  "devDependencies": {}
+  "description": "1.cara pakai carousel klik panah kanan (->) untuk melihat gambar lain ke kanan,klik panah kiri (<-) untuk melihat gambar lain ke kiri. 2.cara pengguna form validasi harus di isi kolom semua . 3.cara pakai image review di upload gambar untuk tampilkan di website."
 }
