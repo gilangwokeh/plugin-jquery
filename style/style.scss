@@ -124,22 +124,32 @@ body {
     #name {
       width: 400px;
       margin-left: 50px;
+      border-radius: 5px;
+      background-color: rgb(211, 203, 203);
     }
     #date {
       width: 400px;
       margin-left: 50px;
+      border-radius: 5px;
+      background-color: rgb(211, 203, 203);
     }
     #email {
       width: 400px;
       margin-left: 50px;
+      border-radius: 5px;
+      background-color: rgb(211, 203, 203);
     }
     #telp {
       width: 400px;
       margin-left: 50px;
+      border-radius: 5px;
+      background-color: rgb(211, 203, 203);
+
     }
     .gender {
       margin-top: 10px;
       margin-left: 50px;
+      
     }
     .life {
       margin-left: 50px;
@@ -147,6 +157,8 @@ body {
     .input-length{
       margin-top: 10px;
       margin-left: 50px;
+      border-radius: 5px;
+
     }
     #submit {
       position: relative;
@@ -157,6 +169,8 @@ body {
     .input-email {
       margin-left: 50px;
       margin-top: 10px;
+      border-radius: 5px;
+
     }
     .input-name{
         margin-left: 50px;
@@ -166,6 +180,7 @@ body {
     }
     #photo {
       margin-left: 100px;
+      background-color: rgb(211, 203, 203);
     }
     #show {
       margin-left: 100px;
@@ -178,6 +193,8 @@ body {
     }
     #address {
       margin-left: 50px;
+      background-color: rgb(211, 203, 203);
+      border-radius: 5px;
 
     }
   }
