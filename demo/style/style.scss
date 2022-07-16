@@ -31,9 +31,9 @@ body {
     left: 140px;
     font-family: sans-serif;
   }
-  #container{
+  .container{
     width:980px;
-    margin:40px auto;
+    margin:20px auto;
     overflow:hidden;
     #slider{
       width:940px;
@@ -63,7 +63,7 @@ body {
     height: 40px;
     position: absolute;
     float:right;
-    left: 175px;
+    left: 185px;
     margin-top:160px;
     border-radius:40px;
     z-index:100;
@@ -81,7 +81,7 @@ body {
     height: 40px;
     position: absolute;
     float:left;
-    right: 220px;
+    right: 200px;
     margin-top:160px;
     border-radius:40px;
     z-index:100;

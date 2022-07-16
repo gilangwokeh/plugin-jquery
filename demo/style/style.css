@@ -32,12 +32,12 @@ body .paragraph-carousel {
   left: 140px;
   font-family: sans-serif;
 }
-body #container {
+body .container {
   width: 980px;
-  margin: 40px auto;
+  margin: 20px auto;
   overflow: hidden;
 }
-body #container #slider {
+body .container #slider {
   width: 940px;
   height: 350px;
   position: relative;
@@ -47,14 +47,14 @@ body #container #slider {
   border: #666 solid 2px;
   border-radius: 5px;
 }
-body #container #slider img {
+body .container #slider img {
   width: 940px;
   height: 350px;
 }
-body #container #slider .slide {
+body .container #slider .slide {
   position: absolute;
 }
-body #container #slider .slide .slide-copy {
+body .container #slider .slide .slide-copy {
   display: none;
 }
 body .prev-span {
@@ -63,7 +63,7 @@ body .prev-span {
   height: 40px;
   position: absolute;
   float: right;
-  left: 175px;
+  left: 185px;
   margin-top: 160px;
   border-radius: 40px;
   z-index: 100;
@@ -81,7 +81,7 @@ body .next-span {
   height: 40px;
   position: absolute;
   float: left;
-  right: 220px;
+  right: 200px;
   margin-top: 160px;
   border-radius: 40px;
   z-index: 100;

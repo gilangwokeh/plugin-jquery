@@ -50,10 +50,3 @@ $(document).ready(function(){
 		$('.active').fadeIn(1000);
 	}
 });
-
-$.fn.greenify = function() {
-	this.css( "color", "green" );
-};
-
-// $('.slide-h1').css('textAlign','center')
-// $('.prev-span').css('backgroundColor','#666').css('width','40px')
