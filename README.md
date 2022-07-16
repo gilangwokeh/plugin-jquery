@@ -1,6 +1,6 @@
 # plugin-jquery
 
-# jQuery carousel v1.0.8
+# jQuery carousel v1.0.9
 Jquery carousel and left button, right button using multiple images
 
 # Options
@@ -126,5 +126,5 @@ function prevSlide(){
 		$('.slide').fadeOut(1000);
 		$('.active').fadeIn(1000);
 	}
-  
+
 ```
