@@ -53,6 +53,9 @@ there are 5 images, there are right and left buttons used in html.
 ### Jquery :
 next slide function and previous slide function to go to another page ,autoswitch === true to auto to another page.
 
+`jquery code below :`
+
+
 ```javascript
 let autoswitch = true;		
 let autoswitch_speed = 6000;
