@@ -1,6 +1,6 @@
 
 $(document).ready(function(){
-	let speed = 500;			// Fade speed
+	let speed = 600;			// Fade speed
 	let autoswitch = true;		// Auto slider options
 	let autoswitch_speed = 6000	// Auto slider speed
 	
@@ -51,3 +51,9 @@ $(document).ready(function(){
 	}
 });
 
+$.fn.greenify = function() {
+	this.css( "color", "green" );
+};
+
+// $('.slide-h1').css('textAlign','center')
+// $('.prev-span').css('backgroundColor','#666').css('width','40px')
