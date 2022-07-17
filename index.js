@@ -1,3 +1,14 @@
+(function ($){
+	$.fn.carousel2 = function(){
+	let speed = 600;			
+	let autoswitch = true;		
+	let autoswitch_speed = 6000	
+	
+	this.first( )
+	}
+	
+}(jQuery))
+
 
 $(document).ready(function(){
 	let speed = 600;			// Fade speed

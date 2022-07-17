@@ -67,6 +67,9 @@ Jquery carousel and left button, right button using multiple images
 </html>
 
 ```
+
+# proses maintenance
+
 ### Component File SCSS
 `SCSS code below :`
 
