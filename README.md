@@ -1,6 +1,6 @@
 # plugin-jquery
 
-# jQuery carousel v1.0.10
+# jQuery carousel v1.0.0
 Jquery carousel and left button, right button using multiple images
 
 # Options
