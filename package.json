@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "express": "^4.18.1",
     "jquery": "^3.6.0",
     "jquery_plugin2": "^1.0.9",
     "link": "^1.5.0",
@@ -22,5 +23,5 @@
     "url": "https://github.com/gilangwokeh/plugin-jquery/issues"
   },
   "homepage": "https://github.com/gilangwokeh/plugin-jquery#readme",
-  "description": "1.cara pakai carousel klik panah kanan (->) untuk melihat gambar lain ke kanan,klik panah kiri (<-) untuk melihat gambar lain ke kiri. 2.cara pengguna form validasi harus di isi kolom semua . 3.cara pakai image review di upload gambar untuk tampilkan di website."
+  "description": "this jquery only value auto shift to another page."
 }

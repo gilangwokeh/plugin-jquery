@@ -1,7 +1,8 @@
 # plugin-jquery
 
-# jQuery carousel v1.0.0
-Jquery carousel and left button, right button using multiple images
+# jQuery Slider v1.0.17
+this jquery only value auto shift to another page.
+
 
 # Options
 

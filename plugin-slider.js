@@ -38,7 +38,7 @@
           $this.children().eq(y).css('zIndex',i + 99999)
         }
         fade();
-      }//end fade if
+      }
         if(options.transition === 'slide')slide();
       function fade(){
         setInterval(function(){
@@ -50,7 +50,7 @@
             .appendTo($this);
           })
         },options.pause);
-      }//end fade
+      }
       function slide(){
         setInterval(function(){
           $this.animate({'left' : '-' + $this.parent().width()},options.speed, function(){
